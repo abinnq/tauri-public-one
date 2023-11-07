@@ -1,0 +1,21 @@
+{
+  "name": "tauri-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "yarn custom-config prod && tauri",
+    "custom-config": "node scripts/custom-config.js"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@tauri-apps/api": "^1.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.4",
+    "@tauri-apps/cli": "^1.5.6"
+  }
+}
